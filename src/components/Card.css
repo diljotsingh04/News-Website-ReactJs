@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* Cards CSS */
+.cards{
+    margin: 0 auto;
+    padding: 11px;
+    max-width: 1159px;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fill, minmax(293px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 16px;
+    overflow: auto;
+}
+.othInfo{
+    padding: 0px 7px;
+}
+.info >p{
+    padding: 7px;
+    font-size: 18px;
+    text-align: justify;
+}
+.i1{
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+.buyNow{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.btn{
+    
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+
+    padding: 7px;
+    border: 0.5px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #0ca2ff;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+#filItem{
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.filItem{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 26px;
+    font-size: 19px;
+}
+.authorName{
+    margin-top: 9px;
+    margin-left: 11px;
+    font-weight: bold;
+    color: rgb(152, 152, 152);
+}
+.topHeading{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    font-family: "Poppins", sans-serif;
+}
